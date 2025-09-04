@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FillipeBrito | Portifólio</title>
+    <meta name="description" content="Portifólio do desenvolvedor Fillipe Brito para compartilhar projetos e habilidades.">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class= "menu__link active" href="#home">
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class= "menu__link" href="#projects">
+                        <span class="menu__text">Projetos</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class= "menu__link" href="#sobre">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class= "menu__link" href="#contato">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>  
+        <div class="header__brand">
+            <img class="brand__logo" src="assets/images/logoT.png" alt="logo FBP">
+        </div>
+        <div class="header__toggle">
+            <i id="toggleTheme" class="bi bi-sun"></i>
+        </div>
+    </header>
+    <nav>
+        <ul class="menu menu--mobile">
+            <li class="menu__item">
+                <a class= "menu__link active" href="#home">
+                    <i class="menu__icon bi bi-house-door"></i>
+                    <span class="menu__text">Home</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class= "menu__link" href="#projects">
+                    <i class="menu__icon bi bi-window-stack"></i>
+                    <span class="menu__text">Projetos</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class= "menu__link" href="#sobre">
+                    <i class="menu__icon bi bi-person"></i>
+                    <span class="menu__text">Sobre</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class= "menu__link" href="#contato">
+                    <i class="menu__icon bi bi-envelope"></i>
+                    <span class="menu__text">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main id="home">
+        <div class="main__content1">
+            <h1>Olá, eu sou o <b>Fillipe! </b>Bem-Vindo ao meu portfólio..</h1>
+            <p>Fillipe Brito, Porto Alegre-RS, Desenvolvedor Front-end em formação.</p>
+            <ul class="menu menu--social">
+                <li>
+                    <a class="menu__link" href="https://github.com/FillipeBrito1" target="_blank">
+                        <i class="menu__icon bi bi-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="https://www.linkedin.com/in/fillipe-brito-pinto/" target="_blank">
+                        <i class="menu__icon bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="https://www.instagram.com/_fillipebrito/" target="_blank">
+                        <i class="menu__icon bi bi-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <button class="btn btn--primary">
+                <span>Ver projetos</span>
+                <i class="bi bi-arrow-down-right"></i>
+            </button>
+        </div>
+    </main>
+    <section class="skills">
+        <h2>Conhecimento nas principais tecnologias do mercado</h2>
+        <ul class="skills__list">
+            <li class="skills__item">
+                <img class="skills__logo" src="assets/images/technologies/javascript.svg" alt="Logo javascript">
+            </li>
+            <li class="skills__item">
+                <img class="skills__logo" src="assets/images/technologies/css.svg" alt="Logo Css">
+            </li>
+            <li class="skills__item">
+                <img class="skills__logo" src="assets/images/technologies/git.svg" alt="logo Git">
+            </li>
+            <li class="skills__item">
+                <img class="skills__logo" src="assets/images/technologies/bootstrap-fill.svg" alt="Logo Bootstrap">
+            </li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projetos</h2>
+        <div class="projects__container">
+
+            <article class="projects__card">
+                <img class="card__cover" src="assets/images/logo.png" alt="Capa do projeto Nome do Projeto">
+
+                <div class="card__body">
+                    <h3 class="card__title">Nome do Projeto</h3>
+                    <p class="card__description">
+                        Uma breve descrição sobre o que é o projeto, qual problema ele resolve e o seu objetivo principal.
+                    </p>
+                    
+                    <ul class="card__tech-list">
+                        <li><img class="tech-icon" src="assets/images/technologies/javascript.svg" alt="Logo JavaScript"></li>
+                        <li><img class="tech-icon" src="assets/images/technologies/css.svg" alt="Logo CSS"></li>
+                        <li><img class="tech-icon" src="assets/images/technologies/git.svg" alt="Logo Git"></li>
+                    </ul>
+                </div>
+
+                <div class="card__links">
+                    <a href="#" class="card__link" target="_blank">
+                        <i class="bi bi-github"></i> Repositório
+                    </a>
+                    <a href="#" class="card__link" target="_blank">
+                        <i class="bi bi-box-arrow-up-right"></i> Ver Site
+                    </a>
+                </div>
+            </article>
+
+            <article class="projects__card">
+                <img class="card__cover" src="assets/images/logo.png" alt="Capa do projeto Nome do Projeto 2">
+                <div class="card__body">
+                    <h3 class="card__title">Nome do Projeto 2</h3>
+                    <p class="card__description">
+                        Uma breve descrição sobre o que é o projeto, qual problema ele resolve e o seu objetivo principal.
+                    </p>
+                    <ul class="card__tech-list">
+                        <li><img class="tech-icon" src="assets/images/technologies/javascript.svg" alt="Logo JavaScript"></li>
+                        <li><img class="tech-icon" src="assets/images/technologies/bootstrap-fill.svg" alt="Logo Bootstrap"></li>
+                    </ul>
+                </div>
+                <div class="card__links">
+                    <a href="#" class="card__link" target="_blank">
+                        <i class="bi bi-github"></i> Repositório
+                    </a>
+                    <a href="#" class="card__link" target="_blank">
+                        <i class="bi bi-box-arrow-up-right"></i> Ver Site
+                    </a>
+                </div>
+            </article>
+
+            <article class="projects__card">
+                <img class="card__cover" src="assets/images/logo.png" alt="Capa do projeto Nome do Projeto 3">
+                <div class="card__body">
+                    <h3 class="card__title">Nome do Projeto 3</h3>
+                    <p class="card__description">
+                        Uma breve descrição sobre o que é o projeto, qual problema ele resolve e o seu objetivo principal.
+                    </p>
+                    <ul class="card__tech-list">
+                        <li><img class="tech-icon" src="assets/images/technologies/css.svg" alt="Logo CSS"></li>
+                    </ul>
+                </div>
+                <div class="card__links">
+                    <a href="#" class="card__link" target="_blank">
+                        <i class="bi bi-github"></i> Repositório
+                    </a>
+                    <a href="#" class="card__link" target="_blank">
+                        <i class="bi bi-box-arrow-up-right"></i> Ver Site
+                    </a>
+                </div>
+            </article>
+            
+        </div>
+    </section>
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <div class="about__container">
+
+            <div class="about__image-container">
+                <img class="about__profile-pic" src="assets/images/profile-photo.png" alt="Foto de Fillipe Brito">
+            </div>
+
+            <div class="about__text-container">
+                <h3 class="about__title">Fillipe Brito</h3>
+                <p class="about__description">
+                    Residente de Porto Alegre-RS e estudante de Ciência da Computação na UniRitter. Tenho grande interesse em aplicar meu conhecimento acadêmico para construir e aprimorar tecnologias. Busco oportunidades onde eu possa colaborar, aprender e enfrentar desafios que gerem impacto real.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <h2>Contate-me!</h2>
+        <p class="contato__subtitulo">
+            Estou sempre aberto a novas oportunidades, colaborações e um bom bate-papo. <br>
+            Entre em contato através das minhas redes ou me envie um e-mail.
+        </p>
+
+        <div class="contato__container">
+            <div class="contato__redes">
+                <a href="https://github.com/FillipeBrito1" class="rede__link" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/fillipe-brito-pinto/" class="rede__link" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+
+            <div class="contato__email">
+                <button id="btnCopiarEmail" class="btn btn--primary">
+                    <span id="textoBtnEmail">britopintofillipe@gmail.com</span>
+                    <i class="bi bi-copy"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>
+            © 2025. Todos os Direitos Reservados. Fillipe Brito Pinto.
+        </p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
